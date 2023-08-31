@@ -5,17 +5,17 @@ import { FaPlus } from 'react-icons/fa';
 import { HiPlus } from 'react-icons/hi';
 
 function TodoCreate() {
-const [addFormActive,setAddForm] = useState(false)
+const [showOpenForm,setShowOpenForm] = useState(false)
 
   const hdlClick = () => {
     console.log("click")
-    setAddForm(!addFormActive)
+    setShowOpenForm(!showOpenForm)
   }
 
 
   return (<>
-    {addFormActive ?
-    < TodoForm textSubmit = " Add Task" setIsOpenForm ={setAddForm}/>
+    {showOpenForm ?
+    < TodoForm textSubmit = " Add Task" setIsOpenForm ={setShowOpenForm}/>
     :
       <div className={styles.todo__create} onClick={hdlClick}>
       <div className={styles.todo__create__button}> <HiPlus /></div> 
