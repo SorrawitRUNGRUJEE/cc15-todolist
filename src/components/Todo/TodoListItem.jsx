@@ -20,7 +20,7 @@ return (
         <HiOutlineCheck className={styles.todo__checkbox__icon} />
       </div>
       <p className={`${styles.todo__task} ${styles.todo__task__done}`}>{props.text} </p>
-      <span className={styles.todo__date}>{props.dueDate}git</span>
+      <span className={styles.todo__date}>{props.dueDate}</span>
       <div className={styles.todo__action}>
         <span>
           <FaPen className={styles.todo__edit} onClick={hdlClick}/>

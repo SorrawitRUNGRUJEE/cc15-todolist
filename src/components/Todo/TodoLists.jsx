@@ -8,7 +8,7 @@ import ToDoListItem from './TodoListItem';
 
 
 const content = [
-  {id:1, text:"Homework",dueDate:"TBA"},
+  {id:1, text:"Homework",dueDate:"123"},
   {id:2, text:"Football practice",dueDate:"TBA"},
   {id:3, text:"world domination",dueDate:"TBA"},
   {id:4, text:"Dev op prctice",dueDate:"TBA"},
